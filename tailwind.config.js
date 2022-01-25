@@ -12,8 +12,13 @@ module.exports = {
         sunflower: '#F4E16D',
         cream: '#FFFEF6',
         offwhite: '#FEFEFB',
-        flint: '#392D6E',
+        flint: '#343434',
         charcoal: '#232323'
+      },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
+      },
+      keyframes: {
       },
     },
   },
