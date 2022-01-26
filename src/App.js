@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import HeroText from './components/HeroText/HeroText';
 
 
 function App() {
   return (
-    <div className="w-screen h-screen flex-col-reverse">
+    <div className="w-auto h-auto flex-col-reverse dark:bg-charcoal transition-all dark:transition-all">
       <NavBar />
-      <body className="w-screen h-screen flex justify-center items-center dark:bg-charcoal transition-all dark:transition-all">Hello World</body>
+      <HeroText text="HELLO WORLD"/>
     </div>
   );
 }
