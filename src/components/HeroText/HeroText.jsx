@@ -5,7 +5,7 @@ function HeroText(props) {
     <div className="relative min-h-[80vh] max-h-screen flex items-center justify-center">
       
       <div className="
-        text-[10vw] 
+        text-[10vw]
         absolute 
         font-poppins 
         font-bold 

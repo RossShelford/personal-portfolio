@@ -20,9 +20,9 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
-        'gradient-x':'gradient-x 12s ease infinite',
-        'gradient-y':'gradient-y 12s ease infinite',
-        'gradient-xy':'gradient-xy 12s ease infinite',
+        'gradient-x':'gradient-x 8s ease infinite',
+        'gradient-y':'gradient-y 8s ease infinite',
+        'gradient-xy':'gradient-xy 8s ease infinite',
       },
       keyframes: {
         'gradient-y': {
