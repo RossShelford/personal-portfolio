@@ -1,3 +1,5 @@
+import WorkItem from "./WorkItem.jsx"
+
 function WorkPage() {
   return (
   <div className="h-auto">
@@ -6,8 +8,8 @@ function WorkPage() {
        <span className="inline-flex h-10 m-3 p-2 text-sm items-center justify-center text-center font-poppins select-none text-stone-500 dark:text-stone-300 cursor-pointer">Design</span>
        <span className="inline-flex h-10 m-3 p-2 text-sm items-center justify-center text-center font-poppins select-none text-stone-500 dark:text-stone-300 cursor-pointer">Development</span>
     </div>
-    <div>
-
+  <div>
+      <WorkItem/>
     </div>
   </div>
   );
