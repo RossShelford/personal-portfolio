@@ -2,7 +2,7 @@ import React from 'react';
 
 function HeroText(props) {
   return (
-    <div className="relative min-h-[80vh] max-h-screen flex items-center justify-center">
+    <div className="relative min-h-[80vh] max-h-screen flex items-center justify-center transition-all dark:transition-all">
       
       <div className="
         text-[10vw]

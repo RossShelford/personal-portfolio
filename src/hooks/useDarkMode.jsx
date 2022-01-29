@@ -35,8 +35,8 @@ const useDarkMode = () => {
     const className = 'dark';
     const bodyClass = window.document.body.classList;
 
-    isEnabled ? bodyClass.add(className, 'bg-charcoal', 'transition-all') : 
-    bodyClass.remove(className, 'bg-charcoal', 'transition-all');
+    isEnabled ? bodyClass.add(className, 'bg-charcoal', 'transition-all', 'dark:transition-all') : 
+    bodyClass.remove(className, 'bg-charcoal', 'transition-all', 'dark:transition-all');
   }, [enabled, isEnabled]);
 
   return [enabled, setEnabled];

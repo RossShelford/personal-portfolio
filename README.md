@@ -2,7 +2,8 @@
 
 This was made using [React](https://github.com/facebook/create-react-app) with [Tailwind CSS](https://tailwindcss.com/). 
 
-What have I used? I have emphasised on using dark mode through-out using a useState Hooks.
+Created with [Figma](https://www.figma.com/file/jweDCVYATCHhGLbF2a0OZT/Ross's-Portfolio?node-id=0%3A1) before starting development.
+
 
 My goal with this portfolio was to acheive a solid base on which I can continue to improve over time.
 

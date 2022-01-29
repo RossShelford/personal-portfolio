@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './index.css';
 import NavBar from './components/NavBar/NavBar';
 import HeroText from './components/HeroText/HeroText';
 import WorkPage from './components/WorkPage/WorkPage';
@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes as Switch, Route} from 'react-router-do
 
 function App() {
   return (
-      <div className="w-screen h-auto dark:bg-charcoal dark:transition-all">
+      <div className="w-screen h-auto">
         <Router>
           <NavBar />
           <Switch>
