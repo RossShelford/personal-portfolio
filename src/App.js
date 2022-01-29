@@ -8,15 +8,16 @@ import { BrowserRouter as Router, Routes as Switch, Route} from 'react-router-do
 
 function App() {
   return (
-    <Router>
-      <div className="w-auto min-h-screen flex-col-reverse dark:bg-charcoal transition-all dark:transition-all">
-        <NavBar />
-        <Switch>
-          <Route exact path="/" element={<HeroText text="HELLO WORLD"/>}/>
-          <Route path="work" element={<WorkPage/>}/>
-        </Switch>
+      <div className="w-screen h-auto dark:bg-charcoal dark:transition-all">
+        <Router>
+          <NavBar />
+          <Switch>
+            <Route exact path="/" element={<HeroText text="HELLO WORLD"/>}/>
+            <Route path="work" element={<WorkPage/>}/>
+          </Switch>
+        </Router>
       </div>
-    </Router>
+    
   );
 }
 

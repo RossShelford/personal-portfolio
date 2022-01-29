@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+//this was not coded from scratch by myself but only implimented and edited to fit my site, Credit to Fireship on Youtube.
+
 const useLocalStorage = (key, initialValue) => {
   const [storedValue, setStoredValue] = useState(() => {
     try {
@@ -33,7 +35,8 @@ const useDarkMode = () => {
     const className = 'dark';
     const bodyClass = window.document.body.classList;
 
-    isEnabled ? bodyClass.add(className) : bodyClass.remove(className);
+    isEnabled ? bodyClass.add(className, 'bg-charcoal', 'transition-all') : 
+    bodyClass.remove(className, 'bg-charcoal', 'transition-all');
   }, [enabled, isEnabled]);
 
   return [enabled, setEnabled];
