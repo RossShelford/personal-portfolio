@@ -1,22 +1,22 @@
-import videoNameTBD from "./WorkPage/tb/item1BlaBlaBla";
+import placeHolder from "./placeholderimage.png";
 
 export default [
     {
         id: 1,
-        tb: item1BlaBlaBla.gif,
-        category: 'Design',
+        tb: placeHolder,
+        category: ['Design', 'All'],
         title: 'Imagineear',
     },
     {
         id: 2,
-        tb: item1BlaBlaBla.gif,
+        tb: placeHolder,
         category: 'Design',
-        title: 'Imagineear',
+        title: 'Pixtec',
     },
     {
         id: 3,
-        tb: item1BlaBlaBla.gif,
+        tb: placeHolder,
         category: 'Design',
-        title: 'Imagineear',
+        title: 'Mixtec',
     },
 ]
