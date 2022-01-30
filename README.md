@@ -14,7 +14,9 @@ My goal with this portfolio was to acheive a solid base on which I can continue 
 
 ## All Available Scripts
 In the project directory, you can run:
+
 ### `npm start`
 ### `npm test`
 ### `npm run build`
 ### `npm run eject`
+### `npm run build-css` *Refresh for @apply in tailwind*

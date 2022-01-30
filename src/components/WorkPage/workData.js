@@ -4,19 +4,19 @@ export default [
     {
         id: 1,
         tb: placeHolder,
-        category: ['Design', 'All'],
-        title: 'Imagineear',
+        category: ['All', 'Design'],
+        title: 'Imagineear Rebrand',
     },
     {
         id: 2,
         tb: placeHolder,
-        category: 'Design',
+        category: ['All', 'Design'],
         title: 'Pixtec',
     },
     {
         id: 3,
         tb: placeHolder,
-        category: 'Design',
+        category: ['Design'],
         title: 'Mixtec',
     },
 ]
