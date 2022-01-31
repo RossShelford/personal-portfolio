@@ -1,11 +1,19 @@
 import React from 'react';
 import menuItems from './workData';
 
+// {menuItems.tools.forEach(i => { 
+//   console.log(i);  
+// })}  
+// <img className='w-6 h-6' src={`${i}`} /> 
+
+   {/* {item.tools.forEach(i => {
+                    <img className='w-6 h-6' src={`${i}`} /> 
+                  })}      */}
 
 function WorkItems() {
   return (
     <div className='select-none relative flex flex-col flex-grow items-center w-full pt-16'>
-      {menuItems.map((item, i) => {
+      {menuItems.map((item) => {
             return( 
             <div key={item.id} className='
             w-3/5 h-1/6 
@@ -15,12 +23,13 @@ function WorkItems() {
             overflow-hidden
             group
             '>
-
                 <div className='opacity-0 transition ease-in duration-200 group-hover:opacity-100 
-                absolute bottom-0 p-4 select-none'>
-                  <img className='w-6 h-6 pb-6' src={`${item.tools}`} />
-                  <h2 className='text-cream  font-poppins text-2xl z-10'>{item.title}</h2>
-                  <svg className=" w-8 h-8 stroke-cream z-10"  xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                absolute bottom-0 p-6 select-none'>
+                  
+                  {item.tools.map(i=>{
+                  <img className='w-6 h-6' src={i} />
+                  })}
+                  <h2 className='pt-2 text-cream  font-poppins text-2xl'>{item.title}</h2>
                 </div>
                 <img src={item.tb} alt={item.title} className="-z-1 w-full object-cover"/>
 

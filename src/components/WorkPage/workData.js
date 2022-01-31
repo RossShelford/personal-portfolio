@@ -9,19 +9,20 @@ export default [
         tb: placeHolder,
         category: ['All', 'Design'],
         title: 'Imagineear Rebrand',
-        tools: [figma, git],
+        tools: [figma]
     },
     {
         id: 2,
         tb: placeHolder,
         category: ['All', 'Design'],
         title: 'Pixtec',
-        tools: [figma, figma],
+        tools: [figma, git],
     },
     {
         id: 3,
         tb: placeHolder,
         category: ['Design'],
         title: 'Mixtec',
+        tools: [figma, figma],
     },
 ]
