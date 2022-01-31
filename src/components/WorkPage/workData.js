@@ -1,15 +1,18 @@
 import placeHolder from "./placeholderimage.png";
-import figma from "./toolsLogos/figma.svg";
-import git from "./toolsLogos/git.svg";
+import figma from "../../assets/toolsLogos/figma.svg";
+import git from "../../assets/toolsLogos/git.svg";
+import sketch from "../../assets/toolsLogos/sketch.svg"
+import ai from "../../assets/toolsLogos/illustrator.svg"
+import ps from "../../assets/toolsLogos/photoshop.svg"
+import ae from "../../assets/toolsLogos/aftereffects.svg"
 
-
-export default [
+ const menuItems = [
     {
         id: 1,
         tb: placeHolder,
         category: ['All', 'Design'],
         title: 'Imagineear Rebrand',
-        tools: [figma]
+        tools: [ai, ps, ae, sketch,],
     },
     {
         id: 2,
@@ -26,3 +29,5 @@ export default [
         tools: [figma, figma],
     },
 ]
+
+export default menuItems;
