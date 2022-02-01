@@ -1,3 +1,8 @@
+
+
+
+
+
 function AboutPageContainer() {
   return (
   <div>
@@ -9,6 +14,7 @@ function AboutPageContainer() {
     dark:text-cream 
     whitespace-pre-line
     text-center
+  selection:bg-salmon selection:text-charcoal
     sm:text-left
 
 
@@ -18,6 +24,9 @@ function AboutPageContainer() {
     
 
     These are my tools:`}
+    </div>
+    <div>
+
     </div>
     
   </div>
