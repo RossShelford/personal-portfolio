@@ -13,8 +13,8 @@ function WorkPage() {
 
   return (
   <>
-    <ButtonFilterBar activeFilter={activeFilter}  handleSetFilter={handleSetFilter}/>
-    <WorkItems />
+    <ButtonFilterBar activeFilter={activeFilter}  handleSetFilter={handleSetFilter} />
+    <WorkItems activeFilter={activeFilter} />
   </>
   );
 }

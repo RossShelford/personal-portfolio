@@ -20,7 +20,7 @@ import { ai, ae, ps, sketch, git, figma, react } from "../../assets/assetsIndex.
     {
         id: 3,
         tb: placeHolder,
-        category: ['All', 'Design'],
+        category: ['All', 'Development'],
         title: 'Instructions Accordion',
         tools: [figma, react, git],
     },
