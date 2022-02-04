@@ -9,6 +9,7 @@ function WorkPage() {
   function handleSetFilter(arg) {
     const setActiveFilter = arg
     setFilter(setActiveFilter)
+    
   }
 
   return (
