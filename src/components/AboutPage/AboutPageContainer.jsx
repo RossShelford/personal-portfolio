@@ -45,13 +45,13 @@ function AboutPageContainer() {
           <img className="h-14 m-3" src={sketch} alt="Sketch 3" />
         </a>
         <a href="https://www.adobe.com/uk/products/illustrator.html" rel="noreferrer" target="_blank">
-          <img className="h-14 m-2" src={ai} alt="Illustrator" />
+          <img className="h-14 m-2 dark:border-2 dark:border-amber-900 dark rounded-xl" src={ai} alt="Illustrator" />
         </a>
         <a href="https://www.adobe.com/uk/products/photoshop.html" rel="noreferrer" target="_blank">
-          <img className="h-14 m-2" src={ps} alt="Photoshop" />
+          <img className="h-14 m-2 dark:border-2 dark:border-sky-900 dark rounded-xl" src={ps} alt="Photoshop" />
         </a>
         <a href="https://www.adobe.com/uk/products/aftereffects.html" rel="noreferrer" target="_blank">
-          <img className="h-14 m-2 mr-4" src={ae} alt="After Effects" />
+          <img className="h-14 m-2 mr-4 dark:border-2 dark:border-violet-800 dark rounded-xl" src={ae} alt="After Effects" />
         </a>
         <a href="https://trello.com/" rel="noreferrer" target="_blank">
           <img className="h-14 m-2" src={trello} alt="Trello" />
