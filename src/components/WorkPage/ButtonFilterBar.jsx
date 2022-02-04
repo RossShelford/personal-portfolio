@@ -9,7 +9,7 @@ function ButtonFilterBar({activeFilter, handleSetFilter }) {
   return (
     <div className="h-auto">
         <div className="bg-gray-50 dark:bg-[#292929] transition-all h-16 flex items-center justify-center">
-            <h3 className="font-poppins text-xs uppercase text-gray-400 dark:text-zinc-500">Work Type:</h3>
+            <h3 className="font-poppins text-xs uppercase text-gray-400 dark:text-zinc-500 select-none">Work Type:</h3>
             <button onClick={() => handleSetFilter("All")} className={`${handleIsActiveFilter("All")} text-flint inline-flex h-10 m-5 p-2 px-3 text-sm items-center justify-center text-center font-poppins select-none transition-all`}>
                 All
             </button>

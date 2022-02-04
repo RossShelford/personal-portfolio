@@ -4,21 +4,21 @@ import { ai, ae, ps, sketch, git, figma, react } from "../../assets/assetsIndex.
 
  const menuItems = [
     {
-        id: 1,
+        id: 'imagineear',
         tb: placeHolder,
         category: ['All', 'Design'],
         title: 'Imagineear Rebrand',
         tools: [ai, ps, ae, sketch],
     },
     {
-        id: 2,
+        id: 'pixtec',
         tb: placeHolder,
         category: ['All', 'Design'],
         title: 'Pixtec',
         tools: [figma, ai],
     },
     {
-        id: 3,
+        id: 'accordion',
         tb: placeHolder,
         category: ['All', 'Development'],
         title: 'Instructions Accordion',
