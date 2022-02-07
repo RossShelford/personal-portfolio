@@ -2,7 +2,7 @@ function ButtonFilterBar({activeFilter, handleSetFilter }) {
 
  function handleIsActiveFilter(par) { return (activeFilter === par) ?
     "text-stone-800 bg-neutral-300 dark:bg-neutral-500 dark:text-stone-300 rounded-xl" :
-    "text-stone-500 dark:text-stone-300 text-cream" 
+    "text-stone-500 dark:text-stone-300" 
  
   };
 
