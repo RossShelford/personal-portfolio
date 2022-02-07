@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import MacTopBarFrame from '../../GeneralComponents/MacTopBarFrame';
-import ImagineearWebVid from './Imagineear-Website.mp4'
+import ImagineearWebVid from './assets/Imagineear-Website.mp4'
 
 
 
