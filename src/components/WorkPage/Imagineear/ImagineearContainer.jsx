@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import MacTopBarFrame from '../../GeneralComponents/MacTopBarFrame';
+import ImagineearWebVid from './Imagineear-Website.mp4'
+
 
 
 function ImagineearContainer() {
@@ -16,6 +18,10 @@ function ImagineearContainer() {
     </div>
     <div className='p-20'>
       <MacTopBarFrame text={"www.imagineear.com"} />
+      <video src={ImagineearWebVid} loop="loop" className='shadow-xl w-full' autoplay="autoplay"></video>
+    </div>
+    <div className='p-20'>
+      
     </div>
       
 </div>
