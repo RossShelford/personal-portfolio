@@ -15,7 +15,7 @@ function ImagineearContainer() {
       The work was completed by capitalising the ‘I’ of Imagineear, signifying solid growth and a reaching of maturity, and now, armed with this capital ‘I’, Imagineear is ready to take on, and take our place in, the post-pandemic world."</p>
     </div>
     <div className='p-20'>
-      <MacTopBarFrame />
+      <MacTopBarFrame text={"www.imagineear.com"} />
     </div>
       
 </div>
