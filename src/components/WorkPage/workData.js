@@ -1,25 +1,25 @@
-import placeHolder from "./placeholderimage.png";
+import logoMorph from "./Imagineear/assets/LogoMorph.webm"
 import { ai, ae, ps, sketch, git, figma, react } from "../../assets/assetsIndex.js"
 
 
  const menuItems = [
     {
         id: 'imagineear',
-        tb: placeHolder,
+        tb: logoMorph,
         category: ['All', 'Design'],
         title: 'Imagineear Rebrand',
         tools: [ai, ps, ae, sketch],
     },
     {
         id: 'pixtec',
-        tb: placeHolder,
+        tb: logoMorph,
         category: ['All', 'Design'],
         title: 'Pixtec',
         tools: [figma, ai],
     },
     {
         id: 'accordion',
-        tb: placeHolder,
+        tb: logoMorph,
         category: ['All', 'Development'],
         title: 'Instructions Accordion',
         tools: [figma, react, git],

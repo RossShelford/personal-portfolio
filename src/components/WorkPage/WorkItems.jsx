@@ -30,7 +30,7 @@ function WorkItems({activeFilter}) {
                     </div>
                     <h2 key={item.id} className='pt-2 text-cream font-poppins text-2xl'>{item.title}</h2>
                   </div>
-                  <img key={item.id} src={item.tb} alt={item.title} className="-z-1 w-full object-cover"/>
+                  <video autoplay="autoplay" loop="loop" key={item.id} src={item.tb} alt={item.title} className="-z-1 w-full object-cover"/>
                 
 
               </div> 

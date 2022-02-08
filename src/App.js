@@ -8,6 +8,7 @@ import ImagineearContainer from './components/WorkPage/Imagineear/ImagineearCont
 import PixtecContainer from './components/WorkPage/Pixtec/PixtecContainer';
 import AccordionContainer from './components/WorkPage/Accordion/AccordionContainer';
 import { BrowserRouter as Router, Routes as Switch, Route} from 'react-router-dom';
+import ContactContainer from './components/ContactPage/ContactContainer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Switch>
             <Route path="/" element={<HeroText text="HELLO WORLD"/>}/>
             <Route path="/about" element={<AboutPageContainer />}/>
+            <Route path="/contact" element={<ContactContainer />}/>
               <Route path="/work" element={<WorkPageContainer />}/>
                 <Route path="work/imagineear" element={<ImagineearContainer/>}/>
                 <Route path="work/pixtec" element={<PixtecContainer/>}/>
