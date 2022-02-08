@@ -6,16 +6,21 @@ import logo1 from './assets/AltLogos/Logo1.png';
 import logo2 from './assets/AltLogos/Logo2.png';
 import logo3 from './assets/AltLogos/Logo3.png';
 import logo4 from './assets/AltLogos/Logo4.png';
+import Drawings1 from './assets/Drawings/Drawings1.png';
+import Drawings2 from './assets/Drawings/Drawings2.png';
+import Drawings3 from './assets/Drawings/Drawings3.png';
+import Drawings4 from './assets/Drawings/Drawings4.png';
 
 
 
 function ImagineearContainer() {
   return (
-  <div className=''>
+  <>
 
     <div className="bg-[#650092] flex justify-center items-center h-80">
       <img src={logo} alt="Imagineear" className="h-32 px-20 select-none"/>
     </div>
+    
     <div className='flex flex-col xl:justify-center xl:items-center xl:text-center'>
       <div className='selection:bg-salmon selection:text-flint max-w-screen-lg'>
         <h3 className='font-poppins text-3xl md:px-32 px-20 pb-3 pt-20 dark:text-cream'>Brand identity to reflect the evolution and rapid growth of the business</h3>
@@ -29,15 +34,23 @@ function ImagineearContainer() {
       <div className='p-32 sm:pt-20 pt-16 max-w-screen-2xl flex flex-col items-center select-none'>
         <span className='p-10 font-poppins dark:text-zinc-500 text-zinc-400'>Alternative Logos</span>
         <div className='grid sm:grid-cols-4 grid-cols-2 sm:gap-16 gap-20'>
-          <img src={logo1} className='w-32'/>
-          <img src={logo2} className='w-32'/>
-          <img src={logo3} className='w-32'/>
-          <img src={logo4} className='w-32'/>
+          <img src={logo1} className='w-32' alt="Logo Concept 1"/>
+          <img src={logo2} className='w-32' alt="Logo Concept 2"/>
+          <img src={logo3} className='w-32' alt="Logo Concept 3"/>
+          <img src={logo4} className='w-32' alt="Logo Concept 4"/>
         </div> 
+      </div>
+      <div className='p-10 sm:pt-20 pt-16 max-w-screen-2xl xl:rounded-3xl flex flex-col items-center select-none bg-zinc-50 dark:bg-flint'>
+          <div className='grid sm:grid-cols-2 grid-cols-1 sm:gap-10 gap-6'>
+            <img src={Drawings1} className='w-96' alt="Drawings Concepts 1"/>
+            <img src={Drawings2} className='w-96' alt="Drawings Concepts 2"/>
+            <img src={Drawings3} className='w-96' alt="Drawings Concepts 3"/>
+            <img src={Drawings4} className='w-96' alt="Drawings Concepts 4"/>
+          </div> 
       </div>
     </div>
 
-  </div>
+  </>
   )
 }
 
