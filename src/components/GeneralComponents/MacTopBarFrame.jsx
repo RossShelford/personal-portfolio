@@ -10,7 +10,7 @@ function MacTopBarFrame(props) {
       <div className='ml-1 h-2 w-2 rounded-full bg-[#F4BF5D]' />
       <div className='ml-1 h-2 w-2 rounded-full bg-[#64C456]' />
   </div>
-  <div className='flex relative items-center rounded-sm bg-[#E6E8E8] dark:bg-[#717171] h-5 md:px-40 px-16 invisible sm:visible'>
+  <div className='flex relative items-center rounded-sm bg-[#E6E8E8] dark:bg-[#717171] h-5 md:px-36 px-16 invisible sm:visible'>
       <span className='font-sans text-xs selection:bg-blue-300 text-flint dark:text-white mr-auto'>{props.text}</span>
 
       <svg className='stroke-gray-500 dark:stroke-gray-300 absolute right-1.5' width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
