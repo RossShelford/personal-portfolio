@@ -23,7 +23,7 @@ function WorkItems({activeFilter}) {
                   
                   <div className='sm:opacity-0 transition ease-in duration-200 group-hover:opacity-100 
                   absolute bottom-0 p-6 select-none'>
-                    <div className='flex'>
+                    <div className='flex sm:visible invisible'>
                       {item.tools.map((icon) =>{
                         return <img key={icon} className='w-6 h-6 mr-4' src={icon} alt={icon} />
                         })}
