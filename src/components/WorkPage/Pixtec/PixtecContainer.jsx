@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroText from '../../HeroText/HeroText';
+import HeroText from '../../HomePage/HeroText';
 
 function PixtecContainer() {
   return <HeroText text="Pixtec"/>
