@@ -1,4 +1,4 @@
-import { ai, ae, ps, sketch, git, figma, react, tailwindcss, trello } from "../../assets/assetsIndex.js";
+import { ai, ae, ps, sketch, git, figma, react, tailwindcss, trello, procreate } from "../../assets/assetsIndex.js";
 
 
 
@@ -43,6 +43,9 @@ function AboutPageContainer() {
         </a>
         <a href="https://www.sketch.com/" rel="noreferrer" target="_blank">
           <img className="h-14 m-3" src={sketch} alt="Sketch 3" />
+        </a>
+        <a href="https://procreate.art/" rel="noreferrer" target="_blank">
+          <img className="h-[4.3rem] m-3" src={procreate} alt="Procreate" />
         </a>
         <a href="https://www.adobe.com/uk/products/illustrator.html" rel="noreferrer" target="_blank">
           <img className="h-14 m-2 dark:border-2 dark:border-amber-900 dark rounded-xl" src={ai} alt="Illustrator" />

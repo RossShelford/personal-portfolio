@@ -7,6 +7,7 @@ import ae from "./toolsLogos/aftereffects.svg";
 import react from "./toolsLogos/react.svg";
 import tailwindcss from "./toolsLogos/tailwindcss.svg";
 import trello from "./toolsLogos/trello.svg";
+import procreate from "./toolsLogos/procreate.svg";
 
 export {
     figma,
@@ -18,4 +19,5 @@ export {
     react,
     tailwindcss,
     trello,
+    procreate,
 };
