@@ -2,18 +2,16 @@ import React from 'react';
 
 function HeroText(props) {
   return (
-    <div className="relative min-h-[80vh] max-h-screen flex items-center justify-center transition-all dark:transition-all">
+    <div className="mt-44 h-60 flex items-center justify-center transition-all dark:transition-all">
       
       <div className="
-        text-[10vw]
+        text-center
+        leading-[6rem] sm:leading-[10rem]
+        sm:text-[10rem] text-[6rem] 
         absolute 
         font-poppins 
         font-bold 
-        z-10
         select-none
-        flex
-        items-center 
-        justify-center
         bg-clip-text 
         text-transparent 
         bg-gradient-to-r 
@@ -21,22 +19,20 @@ function HeroText(props) {
       to-lavender 
       via-salmon
         animate-gradient-x
-        dark:z-50
-        dark:invisible">
+        dark:invisible
+        ">
         {props.text}
       </div>
 
       <div className="
-        text-[10vw] 
-        inset-0 
+        text-center
+        leading-[6rem] sm:leading-[10rem]
+        sm:text-[10rem] text-[6rem]
         absolute 
         font-poppins 
-        font-bold z-0
+        font-bold 
         select-none
         blur-sm
-        flex
-        items-center 
-        justify-center
         bg-clip-text 
         text-transparent 
         bg-gradient-to-r 
@@ -50,16 +46,13 @@ function HeroText(props) {
       </div>
 
       <div className="
-        text-[10vw] 
-        inset-0 
+        text-center
+        leading-[6rem] sm:leading-[10rem]
+        sm:text-[10rem] text-[6rem]
         absolute 
         font-poppins 
         font-bold 
-        z-0
         select-none
-        flex
-        items-center 
-        justify-center
         text-charcoal
         invisible
         dark:visible">

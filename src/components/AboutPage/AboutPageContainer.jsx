@@ -19,7 +19,7 @@ function AboutPageContainer() {
 
       {`Hello, I’m Ross. 
       
-      I have been a Graphic Designer for 5 years and I’m currently focused on becoming a front-end web developer. 
+      I’m currently focused on becoming a front-end web developer and I have been a Graphic Designer for 5 years. 
       
 
       These are my tools:`}
