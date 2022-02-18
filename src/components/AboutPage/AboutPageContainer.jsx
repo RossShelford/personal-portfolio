@@ -1,5 +1,5 @@
 import { ai, ae, ps, sketch, git, figma, react, tailwindcss, trello, procreate } from "../../assets/assetsIndex.js";
-
+import ClientLogos from './ClientLogos.jsx'
 
 
 function AboutPageContainer() {
@@ -8,7 +8,7 @@ function AboutPageContainer() {
     <div className="flex flex-col justify-center">
       <p className="
       mt-20 mx-20
-      max-w-xl
+      max-w-2xl
       text-2xl font-poppins 
       dark:text-cream 
       whitespace-pre-line
@@ -19,7 +19,7 @@ function AboutPageContainer() {
 
       {`Hello, I’m Ross. 
       
-      I’m currently focused on becoming a front-end web developer and I have been a Graphic Designer for 5 years. 
+      I have worked as a Graphic Designer for 5 years and I’m currently focused on becoming a front-end web developer. 
       
 
       These are my tools:`}
@@ -59,7 +59,27 @@ function AboutPageContainer() {
         <a href="https://trello.com/" rel="noreferrer" target="_blank">
           <img className="h-14 m-2" src={trello} alt="Trello" />
         </a>
+
+
       </div>
+      <div>
+        <p className="
+        mt-20 mx-20
+        max-w-xl
+        text-2xl font-poppins 
+        dark:text-cream 
+        whitespace-pre-line
+        text-center
+      selection:bg-salmon selection:text-charcoal
+        sm:text-left
+        sm:text-3xl">
+        I've worked with:
+        </p> 
+        <ClientLogos />
+      </div>
+
+
+
     </div>
   </div>
   )
