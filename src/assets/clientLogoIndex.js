@@ -17,7 +17,7 @@ const clientLogos = [
     {
         id: 4,
         logo: 'clientLogos/Ashmolean-logo.png',
-        class: '',
+        class: 'col-span-2 hidden md:block',
     },
     {
         id: 5,
@@ -37,27 +37,27 @@ const clientLogos = [
     {
         id: 8,
         logo: 'clientLogos/EHSH-logo.png',
-        class: '',
+        class: 'col-span-2',
     },
     {
         id: 9,
         logo: 'clientLogos/SF-logo.png',
-        class: '',
+        class: 'hidden md:block',
     },
     {
         id: 10,
         logo: 'clientLogos/RO-logo.png',
-        class: '',
+        class: 'hidden md:block',
     },
     {
         id: 11,
         logo: 'clientLogos/AM-logo.png',
-        class: '',
+        class: 'hidden md:block',
     },
     {
         id: 12,
         logo: 'clientLogos/Loewe-logo.png',
-        class: '',
+        class: 'col-span-2 hidden md:block',
     },
     {
         id: 13,
@@ -72,7 +72,7 @@ const clientLogos = [
     {
         id: 15,
         logo: 'clientLogos/UKPM-logo.png',
-        class: '',
+        class: 'col-span-2',
     },
     {
         id: 16,
