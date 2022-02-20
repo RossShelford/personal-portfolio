@@ -1,6 +1,6 @@
 import { ai, ae, ps, sketch, git, figma, react, tailwindcss, trello, procreate } from "../../assets/assetsIndex.js";
-import ClientLogos from './ClientLogos.jsx'
-
+import ClientLogos from './ClientLogos.jsx';
+import Hobbies from "./Hobbies.jsx";
 
 function AboutPageContainer() {
   return (
@@ -48,35 +48,22 @@ function AboutPageContainer() {
           <img className="h-[4.3rem] m-3" src={procreate} alt="Procreate" />
         </a>
         <a href="https://www.adobe.com/uk/products/illustrator.html" rel="noreferrer" target="_blank">
-          <img className="h-14 m-2 dark:border-2 dark:border-amber-900 dark rounded-xl" src={ai} alt="Illustrator" />
+          <img className="h-14 m-2 dark:border-2 dark:border-amber-900 dark:rounded-xl" src={ai} alt="Illustrator" />
         </a>
         <a href="https://www.adobe.com/uk/products/photoshop.html" rel="noreferrer" target="_blank">
-          <img className="h-14 m-2 dark:border-2 dark:border-sky-900 dark rounded-xl" src={ps} alt="Photoshop" />
+          <img className="h-14 m-2 dark:border-2 dark:border-sky-900 dark:rounded-xl" src={ps} alt="Photoshop" />
         </a>
         <a href="https://www.adobe.com/uk/products/aftereffects.html" rel="noreferrer" target="_blank">
-          <img className="h-14 m-2 mr-4 dark:border-2 dark:border-violet-800 dark rounded-xl" src={ae} alt="After Effects" />
+          <img className="h-14 m-2 mr-4 dark:border-2 dark:border-violet-800 dark:rounded-xl" src={ae} alt="After Effects" />
         </a>
         <a href="https://trello.com/" rel="noreferrer" target="_blank">
           <img className="h-14 m-2" src={trello} alt="Trello" />
         </a>
-
-
       </div>
-      <div>
-        <p className="
-        mt-20 mx-20
-        max-w-xl
-        text-2xl font-poppins 
-        dark:text-cream 
-        whitespace-pre-line
-        text-center
-      selection:bg-salmon selection:text-charcoal
-        sm:text-left
-        sm:text-3xl">
-        I've worked with:
-        </p> 
+
         <ClientLogos />
-      </div>
+
+        <Hobbies />
 
 
 

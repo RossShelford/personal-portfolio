@@ -62,12 +62,12 @@ const clientLogos = [
     {
         id: 13,
         logo: 'clientLogos/PH-logo.png',
-        class: '',
+        class: 'hidden md:block',
     },
     {
         id: 14,
         logo: 'clientLogos/KSC-logo.png',
-        class: '',
+        class: 'hidden md:block',
     },
     {
         id: 15,
