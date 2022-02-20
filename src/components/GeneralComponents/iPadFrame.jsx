@@ -1,9 +1,11 @@
 import React from 'react'
 
-function iPadFrame() {
+function IPadFrame() {
   return (
-    <div>iPadFrame</div>
+    <div>
+      iPadFrame
+    </div>
   )
 }
 
-export default iPadFrame
+export default IPadFrame
