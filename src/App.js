@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import AboutPageContainer from './components/AboutPage/AboutPageContainer';
 import WorkPageContainer from './components/WorkPage/WorkPageContainer';
 import ImagineearContainer from './components/WorkPage/Imagineear/ImagineearContainer';
-import PixtecContainer from './components/WorkPage/Pixtec/PixtecContainer';
+import NFTContainer from './components/WorkPage/NFT/NFTContainer';
 import AccordionContainer from './components/WorkPage/Accordion/AccordionContainer';
 import { BrowserRouter as Router, Routes as Switch, Route} from 'react-router-dom';
 import ContactContainer from './components/ContactPage/ContactContainer';
@@ -23,7 +23,7 @@ function App() {
             <Route path="/contact" element={<ContactContainer />}/>
               <Route path="/work" element={<WorkPageContainer />}/>
                 <Route path="work/imagineear" element={<ImagineearContainer/>}/>
-                <Route path="work/pixtec" element={<PixtecContainer/>}/>
+                <Route path="work/NFT" element={<NFTContainer/>}/>
                 <Route path="work/accordion" element={<AccordionContainer/>}/>
           </Switch>
         </Router>

@@ -1,5 +1,5 @@
 import logoMorph from "./Imagineear/assets/LogoMorph.webm"
-import { ai, ae, ps, sketch, figma, react } from "../../assets/assetsIndex.js"
+import { ai, ae, ps, sketch, figma, react, procreate } from "../../assets/assetsIndex.js"
 
 
  const menuItems = [
@@ -11,11 +11,11 @@ import { ai, ae, ps, sketch, figma, react } from "../../assets/assetsIndex.js"
         tools: [ai, ps, ae, sketch],
     },
     {
-        id: 'pixtec',
+        id: 'nft',
         tb: logoMorph,
-        category: ['All', 'Design'],
-        title: 'Pixtec Branding',
-        tools: [figma, ai],
+        category: ['All', 'Design', 'Development'],
+        title: 'NFT Generation',
+        tools: [ae, procreate, react, ]
     },
     {
         id: 'accordion',
