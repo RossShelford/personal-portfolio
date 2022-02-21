@@ -1,4 +1,5 @@
 import logoMorph from "./Imagineear/assets/LogoMorph.webm"
+import nftvideo from "./NFT/assets/Timelapse_Bailey.webm"
 import { ai, ae, ps, sketch, figma, react, procreate } from "../../assets/assetsIndex.js"
 
 
@@ -12,10 +13,10 @@ import { ai, ae, ps, sketch, figma, react, procreate } from "../../assets/assets
     },
     {
         id: 'nft',
-        tb: logoMorph,
+        tb: nftvideo,
         category: ['All', 'Design', 'Development'],
         title: 'NFT Generation',
-        tools: [ae, procreate, react, ]
+        tools: [procreate, ]
     },
     {
         id: 'accordion',

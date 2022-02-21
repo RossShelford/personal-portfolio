@@ -16,7 +16,7 @@ function Hobbies() {
       sm:text-left
       sm:text-3xl">
 
-      My Hobbies are:
+      My Hobbies include:
       </p> 
       
       <div className="flex flex-wrap items-center mx-16 pt-6 justify-center sm:justify-start selection:bg-salmon selection:text-charcoal">
