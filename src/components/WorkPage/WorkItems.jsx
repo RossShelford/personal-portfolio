@@ -35,7 +35,7 @@ function WorkItems({activeFilter}) {
                       </svg>
                     </div>
                   </div>
-                  <video autoplay="autoplay" loop="loop" key={item.id} src={item.tb} alt={item.title} className="-z-1 w-full object-cover"/>
+                  <video playsInline autoplay="autoplay" loop="loop" key={item.id} src={item.tb} alt={item.title} className="-z-1 w-full object-cover"/>
                 
 
               </div> 
