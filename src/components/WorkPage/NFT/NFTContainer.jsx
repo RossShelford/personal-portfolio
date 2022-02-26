@@ -1,6 +1,6 @@
 import React from 'react';
 import IPadFrame from '../../GeneralComponents/AppleiPadFrame';
-import BaileyWebVid from './assets/Timelapse_Bailey.webm';
+import BaileyWebVid from './assets/Timelapse_Bailey.mp4';
 
 function NFTContainer() {
   return (
