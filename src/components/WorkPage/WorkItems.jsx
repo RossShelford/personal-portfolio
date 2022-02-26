@@ -35,7 +35,7 @@ function WorkItems({activeFilter}) {
                       </svg>
                     </div>
                   </div>
-                  <video playsInline muted autoplay="autoplay" loop="loop" key={item.id} src={item.tb} alt={item.title} className="-z-1 w-full object-cover"/>
+                  <video playsInline muted autoplay="autoplay" loop="loop" key={item.id} src={"https://pentagram-production.imgix.net/e83cc41b-a699-4e6f-8892-388ec0c050b2/MG_NGA_7.gif?rect=0%2C0%2C3000%2C1688&w=1200&crop=1&fm=mp4&h=675&q=70&auto=format&fit=crop"} alt={item.title} className="-z-1 w-full object-cover"/>
                 
 
               </div> 
