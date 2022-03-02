@@ -29,7 +29,7 @@ function ImagineearContainer() {
       </div>
       <div className='md:px-32 px-10 sm:pt-20 pt-16 max-w-screen-2xl'>
         <MacTopBarFrame text={"www.imagineear.com"} />
-        <video src={ImagineearWebVid} loop="loop" className='shadow-xl' autoplay="autoplay"></video>
+        <video playsInline src={ImagineearWebVid} loop="loop" className='shadow-xl' autoplay="autoplay"></video>
       </div>
       <div className='p-20 sm:pt-20 pt-16 max-w-screen-2xl flex flex-col items-center select-none'>
         <span className='p-10 font-poppins dark:text-zinc-500 text-zinc-400'>Alternative Logos</span>
