@@ -28,7 +28,7 @@ function NavBar() {
 
   return (
     <nav>
-      <div className={`${mobileActive ? (`h-20`) : (`h-0`)} bg-cream w-full flex items-center drop-shadow-sm select-none transition-all dark:drop-shadow-md dark:transition-all dark:bg-flint`}>
+      <div className={`${mobileActive ? (`h-20`) : (`h-1`)} bg-cream w-full flex items-center drop-shadow-sm select-none transition-all dark:drop-shadow-md dark:transition-all dark:bg-flint`}>
       
         {/* Logo */}
         {mobileActive ? (
