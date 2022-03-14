@@ -7,7 +7,8 @@ function AboutPageContainer() {
   <div>
     <div className="flex flex-col justify-center">
       <p className="
-      mt-20 mx-20
+      mt-20 
+      mx-10 sm:mx-20
       max-w-2xl
       text-2xl font-poppins 
       dark:text-cream 

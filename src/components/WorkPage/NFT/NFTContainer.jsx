@@ -7,8 +7,10 @@ function NFTContainer() {
     <div className='flex flex-col justify-center items-center'>
       
       <div className='selection:bg-salmon selection:text-flint max-w-screen-lg'>
-        <h3 className='font-poppins text-3xl md:px-32 px-20 pb-3 pt-20 dark:text-cream'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente</h3>
-        <p className='font-poppins text-sm md:px-32 px-20 leading-relaxed dark:text-cream'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, minima quidem vitae at repellendus sint nesciunt nemo optio ipsam, esse ut maxime consectetur adipisci dicta vel libero error nobis mollitia unde eos. Doloribus id nesciunt veritatis eius nisi sit veniam a omnis blanditiis eum, vel quam ad natus adipisci ex consequatur non corporis iste inventore optio. Quidem totam quos veniam minus iste maiores provident sapiente nihil amet! Voluptatum impedit totam error, non, voluptatem ipsa a beatae sed illo itaque corrupti dignissimos? Quasi itaque expedita qui dolorem earum. Libero vel reprehenderit voluptates qui, placeat similique delectus nisi in officiis, sint provident.</p>
+        <h3 className='font-poppins text-3xl md:px-32 px-20 pb-3 pt-20 dark:text-cream'>What is an NFT?</h3>
+        <p className='font-poppins text-sm md:px-32 px-20 leading-relaxed dark:text-cream'>
+          Put simply, NFT's (Non-Fungible Token) are currently most know for digital art that a person who buys an NFT art piece is actually buying the only verifiable version of that piece as minted by the artist. When an artist mints a work, it's at that point that all other copies are just that, copies. The monetary value of that work is attached to the actual NFT connected to the blockchain. NFT's a whole is a technology still in it's infancy and I believe it will become a pivotal tool in verifying products and licencing.
+        </p>
       </div>
       <IPadFrame content={BaileyWebVid}/>
 

@@ -15,7 +15,7 @@ import { ai, ae, ps, sketch, figma, react, procreate } from "../../assets/assets
         id: 'nft',
         tb: nftvideo,
         category: ['All', 'Design', 'Development'],
-        title: 'NFT Generation',
+        title: 'NFT Project',
         tools: [procreate, ]
     },
     {
