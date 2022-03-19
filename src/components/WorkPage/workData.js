@@ -1,5 +1,5 @@
 import logoMorph from "./Imagineear/assets/LogoMorph.mp4"
-import nftvideo from "./NFT/assets/Timelapse_Bailey.mp4"
+import nftvideo from "./NFT/assets/myCatBaileyNFT-Showcase.mp4"
 import { ai, ae, ps, sketch, figma, react, procreate } from "../../assets/assetsIndex.js"
 
 
