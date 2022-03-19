@@ -13,6 +13,12 @@ function NFTContainer() {
         </p>
       </div>
       <IPadFrame content={BaileyWebVid}/>
+      <div className='selection:bg-salmon selection:text-flint max-w-screen-lg'>
+        <h3 className='font-poppins text-3xl md:px-32 px-20 pb-3 pt-20 dark:text-cream'>How Do NFTs Work?</h3>
+        <p className='font-poppins text-sm md:px-32 px-20 pb-20 leading-relaxed dark:text-cream'>
+          NFTs are powered by smart contracts, most commonly on the Ethereum blockchain. NFTs are created by the process of “minting”. This is when a digital file is transformed into a digital asset. The asset is given a unique fingerprint (hash), token name, and token symbol. Once minted, this asset can then be stored on the blockchain, traded, or sold. Like other cryptocurrency transactions, records of ownership and transfers of digital assets will be stored on the blockchain for all to see.
+        </p>
+      </div>
 
     </div>
 
