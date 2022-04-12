@@ -17,12 +17,13 @@ function WorkItems({activeFilter}) {
               sm:w-4/5 md:w-3/5 xl:w-2/5
               m-0 sm:mb-14  
               transform-gpu transition ease-out duration-700
-              hover:cursor-pointer sm:hover:scale-110
+              hover:cursor-pointer hover:shadow-lg sm:hover:scale-110
+              shadow-md 
               overflow-hidden
               group'>
                   
-                  <div className='sm:opacity-0 transition ease-in duration-200 group-hover:opacity-100 
-                  absolute bottom-0 p-6 select-none'>
+                  <div className={`sm:opacity-0 transition ease-in duration-200 group-hover:opacity-100 bg-gradient-to-t from-zinc-800 bg-opacity-50 w-full
+                  absolute bottom-0 p-6 select-none`}>
                     <div className='flex sm:visible invisible'>
                       {item.tools.map((icon) =>{
                         return <img key={icon} className='w-6 h-6 mr-4' src={icon} alt={icon} />
