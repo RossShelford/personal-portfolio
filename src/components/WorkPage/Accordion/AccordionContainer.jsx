@@ -1,8 +1,12 @@
-import React from 'react';
-import HeroText from '../../HomePage/HeroText';
+import InstructionsSection from './InstructionsSection';
+import Data from './Data';
 
-function AccordionContainer() {
-  return <HeroText text="Accordion"/>
+function App() {
+  return <div>
+    {Data.map((individualSectionData) => {
+      return <InstructionsSection data={individualSectionData} key={individualSectionData.title}/>
+    })}
+  </div>
 }
 
-export default AccordionContainer;
+export default App;
