@@ -5,7 +5,7 @@ import BaileyGeneration from './assets/ExportingVideo.mp4';
 
 function NFTContainer() {
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center pb-20'>
       
       <div className='selection:bg-salmon selection:text-flint max-w-screen-lg'>
         <h3 className='font-poppins text-3xl md:px-32 px-20 pb-3 pt-20 dark:text-cream'>What is an NFT?</h3>
