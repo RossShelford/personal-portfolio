@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ButtonFilterBar from "./ButtonFilterBar.jsx";
 import WorkItems from "./WorkItems.jsx";
+import Footer from "../GeneralComponents/Footer.jsx"
 
 function WorkPage() {
 
@@ -16,6 +17,7 @@ function WorkPage() {
   <>
     <ButtonFilterBar activeFilter={activeFilter}  handleSetFilter={handleSetFilter} />
     <WorkItems activeFilter={activeFilter} />
+    <Footer />
   </>
   );
 }

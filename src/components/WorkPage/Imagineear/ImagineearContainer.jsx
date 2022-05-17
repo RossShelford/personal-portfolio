@@ -10,6 +10,7 @@ import Drawings1 from './assets/Drawings/Drawings1.png';
 import Drawings2 from './assets/Drawings/Drawings2.png';
 import Drawings3 from './assets/Drawings/Drawings3.png';
 import Drawings4 from './assets/Drawings/Drawings4.png';
+import Footer from '../../GeneralComponents/Footer.jsx'
 
 
 
@@ -49,7 +50,7 @@ function ImagineearContainer() {
           </div> 
       </div>
     </div>
-
+    <Footer />
   </>
   )
 }

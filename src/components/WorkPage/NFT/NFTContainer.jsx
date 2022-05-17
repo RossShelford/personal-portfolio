@@ -2,9 +2,10 @@ import React from 'react';
 import IPadFrame from '../../GeneralComponents/AppleiPadFrame';
 import BaileyWebVid from './assets/Timelapse_Bailey.mp4';
 import BaileyGeneration from './assets/ExportingVideo.mp4';
+import Footer from '../../GeneralComponents/Footer.jsx'
 
 function NFTContainer() {
-  return (
+  return (<>
     <div className='flex flex-col justify-center items-center pb-20'>
       
       <div className='selection:bg-salmon selection:text-flint max-w-screen-lg'>
@@ -24,16 +25,20 @@ function NFTContainer() {
         <p className='font-poppins text-sm md:px-32 px-20 leading-relaxed dark:text-cream'>
           The first necessary part of my Project was to have illustration to use, so I drew my cat Bailey. From there to be able to I then drew a bunch of different variants for the eyes, mouth, body and accessories allowing me to layer and generate thousands of unique artworks using open source software by <a className="underline text-lavender" target="_Blank" rel="noreferrer" href="https://github.com/hashlips">Hashlips</a>.
         </p>
+
+
+        <video className="p-12" playsInline src={BaileyGeneration} loop="loop" autoPlay="autoplay"></video>
+
+        <p className='font-poppins text-sm md:px-32 px-20 leading-relaxed dark:text-cream'>
+          NFTs do not actually store images on the blockchain because of file size constraints. Instead, they store a hash of the image. This hash is called the NFT’s content ID (CID)  and is typically hosted on <a className="underline text-lavender" target="_Blank" rel="noreferrer" href="https://ipfs.io/">IPFS</a>. Once content is uploaded, it cannot be modified without changing the CID.
+          I have used <a className="underline text-lavender" target="_Blank" rel="noreferrer" href="https://www.pinata.cloud/">Pinata</a> to simplify   the process of uploading my artwork on IPFS.
+        </p>
+        
       </div>
-
-      <video className="p-12" playsInline src={BaileyGeneration} loop="loop" autoPlay="autoplay"></video>
-      
-      <p className='font-poppins text-sm md:px-32 px-20 leading-relaxed dark:text-cream'>
-        NFTs do not actually store images on the blockchain because of file size constraints. Instead, they store a hash of the image. This hash is called the NFT’s content ID (CID)  and is typically hosted on <a className="underline text-lavender" target="_Blank" rel="noreferrer" href="https://ipfs.io/">IPFS</a>. Once content is uploaded, it cannot be modified without changing the CID.
-        I have used <a className="underline text-lavender" target="_Blank" rel="noreferrer" href="https://www.pinata.cloud/">Pinata</a> to simplify   the process of uploading my artwork on IPFS.
-      </p>
-
     </div>
+    <Footer />
+    </>
+    
 
 )
 }
